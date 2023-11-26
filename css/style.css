@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+body {
+    margin: 0;
+    text-align: center;
+    font-family: arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.box {
+        background-color: lightgrey;
+        min-width: 300px;
+        min-height: 300px;
+        width: 18vw;
+        height: 18vw;
+        margin: 1vw;
+        padding: 25px;
+        border-radius: 10px;
+    
+        /* aligns text (and anything else) in the middle of the box */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
