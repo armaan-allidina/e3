@@ -12,6 +12,12 @@ body {
     display: flex;
     flex-direction: column;
 }
+.wrap {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .box {
         background-color: lightgrey;
         min-width: 300px;
@@ -27,4 +33,15 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        position: relative;
+    }
+    .colorBox{
+        background-color: rgb(0, 180, 0);
+    }
+    .material-symbols-outlined{
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        cursor: pointer;
+        color: rgb(200, 200, 200);
     }
